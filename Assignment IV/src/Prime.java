@@ -14,11 +14,13 @@ public class Prime {
 	else if(n>=1){	
 	for (int i = 2; i<n; i++) {
 		
-		int c=n/i;
-		System.out.println(c);
-			if(n%i==0) {
+		double c= (double)n/i;
+		int t=n-2;
+		//System.out.println(c);
+			if(n%i==0 && c==Math.ceil(c)) {
 				System.out.println(n+" is a composite number "
-						+ "and factors");
+						+ "and factors are "+i);
+				
 			}
 		}
 		
