@@ -11,13 +11,16 @@ public class Prime {
 		
 	if (n<1) 
 		System.out.println("Number must be greater than 1");
-	else if(n>=1)	
-	for (int i = 1; i<=n; i++) {
+	else if(n>=1){	
+	for (int i = 2; i<n; i++) {
+		
+		int c=n/i;
+		System.out.println(c);
 			if(n%i==0) {
-				
 			}
 		}
 		
+	}
 	}
 		
 }
