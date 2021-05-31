@@ -21,13 +21,22 @@ public class Prime {
 					System.out.println(n+" is a composite number and the factors are "+i);
 
 				}
+				
 			}
 
-			System.out.println("\nWith 1st method number of iteration  is: "+t);
-		}
-		else if(n>=1) {
+				for (int j = 1; j<=n; j++) {
 
+					double x= (double)n/j;
+
+					if(n%j!=0 && x==Math.ceil(x)) {
+						System.out.println(n+" is a prime number and the factors are "+j);
+
+
+					}
+				}
+				System.out.println("\nWith 1st method number of iteration  is: "+t);
 		}
+		
 	}
 }
 
