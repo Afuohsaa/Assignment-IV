@@ -17,6 +17,8 @@ public class Prime {
 		int c=n/i;
 		System.out.println(c);
 			if(n%i==0) {
+				System.out.println(n+" is a composite number "
+						+ "and factors");
 			}
 		}
 		
